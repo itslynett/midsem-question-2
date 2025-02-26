@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: red;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    color: red;
+}
+
+/* Menu List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: red;
+    color: black;
+    margin: 10px auto;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: red;
+    padding: 15px;
+    font-weight: bold;
+}
